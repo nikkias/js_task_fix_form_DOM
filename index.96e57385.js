@@ -1,0 +1,2 @@
+document.querySelectorAll("input").forEach(function(e){var n=function(e){var n=e.match(/[A-Z]/g)||null,l=e[0].toUpperCase()+e.slice(1);if(n){var c=e.indexOf(n);l=l.slice(0,c)+" "+l.slice(c)}return l}(e.name);e.placeholder=n,e.insertAdjacentHTML("beforebegin",'\n      <label class="field-label" for="'.concat(e.id,'">\n        ').concat(n,"\n      </label>\n    "))});
+//# sourceMappingURL=index.96e57385.js.map
